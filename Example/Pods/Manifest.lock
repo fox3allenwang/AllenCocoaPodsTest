@@ -1,0 +1,16 @@
+PODS:
+  - AllenFirstPodLib (0.1.0)
+
+DEPENDENCIES:
+  - AllenFirstPodLib (from `../`)
+
+EXTERNAL SOURCES:
+  AllenFirstPodLib:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AllenFirstPodLib: 40cdfc601d9ae358e7df80e8e08a934edb2a13d4
+
+PODFILE CHECKSUM: 78a8a6bde108da08018aca40524f986b2448dbd8
+
+COCOAPODS: 1.11.2

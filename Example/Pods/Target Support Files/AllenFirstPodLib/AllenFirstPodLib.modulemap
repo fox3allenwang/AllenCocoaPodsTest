@@ -1,0 +1,6 @@
+framework module AllenFirstPodLib {
+  umbrella header "AllenFirstPodLib-umbrella.h"
+
+  export *
+  module * { export * }
+}

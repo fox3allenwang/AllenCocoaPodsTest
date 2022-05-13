@@ -6,10 +6,10 @@
 # To learn more about a Podspec see https://guides.cocoapods.org/syntax/podspec.html
 #
 
-Pod::Spec.new do |s|
-  s.name             = 'AllenFirstPodLib'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of AllenFirstPodLib.'
+Pod::Spec.new do |spec|
+  spec.name             = 'AllenFirstPodLib'
+  spec.version          = '0.0.1'
+  spec.summary          = 'A CocoaPods Test built from allenwang'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,26 +17,31 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
+  spec.description      = <<-DESC
+  A CocoaPods built from allenwang
+  i am handsome And my dick is big
                        DESC
 
-  s.homepage         = 'https://github.com/fox3allenwang/AllenFirstPodLib'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
-  s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'fox3allenwang' => 'fox3allenwang@gmail.com' }
-  s.source           = { :git => 'https://github.com/fox3allenwang/AllenFirstPodLib.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  spec.homepage         = 'https://github.com/fox3allenwang/AllenFirstPodLib'
+  # spec.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  spec.license          = { :type => 'MIT', :file => 'LICENSE' }
+  spec.author           = { 'fox3allenwang' => 'fox3allenwang@gmail.com' }
+  spec.source           = { :git => 'https://github.com/fox3allenwang/AllenFirstPodLib.git', :tag =>      spec.version.to_s }
+  # spec.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '9.0'
+  spec.ios.deployment_target = '13.0'
 
-  s.source_files = 'AllenFirstPodLib/Classes/**/*'
+  spec.source_files = 'AllenFirstPodLib/Classes/**/*'
   
-  # s.resource_bundles = {
+  # spec.resource_bundles = {
   #   'AllenFirstPodLib' => ['AllenFirstPodLib/Assets/*.png']
   # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  spec.frameworks = 'UIKit', 'Foundation', 'CoreBluetooth'
+  spec.dependency 'RealmSwift', '10.20.0'
+  spec.dependency 'AWSS3','2.26.3'
+  spec.dependency 'CryptoSwift','1.0.0'
+  spec.dependency 'AWSMobileClient','2.26.3'
+  spec.dependency 'AWSAuthUI','2.26.3'
+  spec.dependency 'AWSUserPoolsSignIn','2.26.3'
 end
