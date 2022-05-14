@@ -15,7 +15,8 @@
 		A593B0E0BD4E3319B5CF93E3A8B8E244 /* AllenFirstPodLib-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DC8D163EAE1924D1E06D81A883D2C97B /* AllenFirstPodLib-dummy.m */; };
 		A61F62CC6F0DDC383B316C15CD59268B /* Pods-AllenFirstPodLib_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AC48F280F0EA7908F8C312C4CED4DBD5 /* Pods-AllenFirstPodLib_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D8050594282EC0F1008DD296 /* MyFirstPodLib.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8050593282EC0F1008DD296 /* MyFirstPodLib.xcassets */; };
-		D8050596282EC117008DD296 /* TestFunc.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8050595282EC117008DD296 /* TestFunc.swift */; };
+		D8050598282F7A11008DD296 /* DemoFunc.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8050597282F7A11008DD296 /* DemoFunc.swift */; };
+		D805059A282F7AC0008DD296 /* TestFunc.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8050599282F7AC0008DD296 /* TestFunc.swift */; };
 		F64F49303C3250C04344B2F44715EAEE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		FF8131BA2CBD293604555C6559F6DFA5 /* Pods-AllenFirstPodLib_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 409CCC5EC17816DDA322940BD4F00C58 /* Pods-AllenFirstPodLib_Example-dummy.m */; };
 /* End PBXBuildFile section */
@@ -66,7 +67,8 @@
 		C85880279EBD118B1FAC82C5B9E4F856 /* AllenFirstPodLib.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AllenFirstPodLib.debug.xcconfig; sourceTree = "<group>"; };
 		CA3D9765D6512711887D92061ABAA586 /* Pods-AllenFirstPodLib_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AllenFirstPodLib_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		D8050593282EC0F1008DD296 /* MyFirstPodLib.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = MyFirstPodLib.xcassets; sourceTree = "<group>"; };
-		D8050595282EC117008DD296 /* TestFunc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestFunc.swift; sourceTree = "<group>"; };
+		D8050597282F7A11008DD296 /* DemoFunc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DemoFunc.swift; path = ../AllenFirstPodLib/Classes/DemoFunc.swift; sourceTree = "<group>"; };
+		D8050599282F7AC0008DD296 /* TestFunc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TestFunc.swift; path = ../AllenFirstPodLib/Classes/TestFunc.swift; sourceTree = "<group>"; };
 		D8439846E52FB201E69702F20F63C41E /* Pods-AllenFirstPodLib_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AllenFirstPodLib_Example-umbrella.h"; sourceTree = "<group>"; };
 		DC8D163EAE1924D1E06D81A883D2C97B /* AllenFirstPodLib-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AllenFirstPodLib-dummy.m"; sourceTree = "<group>"; };
 		E2566B37FB5B06B5AB2E21E7FBC453DB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
@@ -229,7 +231,8 @@
 		D805058B282EC07C008DD296 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				D8050595282EC117008DD296 /* TestFunc.swift */,
+				D8050599282F7AC0008DD296 /* TestFunc.swift */,
+				D8050597282F7A11008DD296 /* DemoFunc.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -409,7 +412,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				A593B0E0BD4E3319B5CF93E3A8B8E244 /* AllenFirstPodLib-dummy.m in Sources */,
-				D8050596282EC117008DD296 /* TestFunc.swift in Sources */,
+				D805059A282F7AC0008DD296 /* TestFunc.swift in Sources */,
+				D8050598282F7A11008DD296 /* DemoFunc.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

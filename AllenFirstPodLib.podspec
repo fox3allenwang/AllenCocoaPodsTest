@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |spec|
   spec.name             = 'AllenFirstPodLib'
-  spec.version          = '0.0.1'
+  spec.version          = '0.0.2'
   spec.summary          = 'A CocoaPods Test built from allenwang'
 
 # This description is used to generate tags and improve search results.
@@ -22,11 +22,11 @@ Pod::Spec.new do |spec|
   i am handsome And my dick is big
                        DESC
 
-  spec.homepage         = 'https://github.com/fox3allenwang/AllenFirstPodLib'
+  spec.homepage         = 'https://github.com/fox3allenwang/AllenCocoaPodsTest'
   # spec.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   spec.license          = { :type => 'MIT', :file => 'LICENSE' }
   spec.author           = { 'fox3allenwang' => 'fox3allenwang@gmail.com' }
-  spec.source           = { :git => 'https://github.com/fox3allenwang/AllenFirstPodLib.git', :tag =>      spec.version.to_s }
+  spec.source           = { :git => 'https://github.com/fox3allenwang/AllenCocoaPodsTest.git', :tag =>      spec.version.to_s }
   # spec.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   spec.ios.deployment_target = '13.0'
