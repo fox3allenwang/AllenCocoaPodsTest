@@ -6,7 +6,7 @@
 //
 
 import Foundation
-public class demoFunc{
+public class DemoFunc{
     
     public static func sayHi() {
         print("hi")
@@ -18,8 +18,8 @@ public class demoFunc{
     
     public static func inputAndOutput(input: String?) {
         print("MyFirstPodLib：You input \(String(describing: input)), and I output \(String(describing: input))")
-        }
     }
+}
 
     
     

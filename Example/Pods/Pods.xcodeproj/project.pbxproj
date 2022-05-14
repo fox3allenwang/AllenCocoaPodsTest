@@ -41,7 +41,7 @@
 /* Begin PBXFileReference section */
 		0074BD49F6E6448CBE296F50508A212A /* AllenFirstPodLib.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = AllenFirstPodLib.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		028D3690E2CCB0CAD782C9B6675B769B /* Pods-AllenFirstPodLib_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AllenFirstPodLib_Tests-Info.plist"; sourceTree = "<group>"; };
-		0A0FB5ECC3EF045C2EBB6A2EC4F247D3 /* Pods-AllenFirstPodLib_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-AllenFirstPodLib_Example"; path = Pods_AllenFirstPodLib_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A0FB5ECC3EF045C2EBB6A2EC4F247D3 /* Pods_AllenFirstPodLib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AllenFirstPodLib_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D688D814E1C3A2008B57C15E01F8239 /* Pods-AllenFirstPodLib_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AllenFirstPodLib_Example-frameworks.sh"; sourceTree = "<group>"; };
 		277D95EB09D1C6157E8F4DF162B6FE84 /* Pods-AllenFirstPodLib_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AllenFirstPodLib_Tests.modulemap"; sourceTree = "<group>"; };
 		35370C75B3AA9B191CAE1D940C090A41 /* AllenFirstPodLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AllenFirstPodLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -56,7 +56,7 @@
 		6E2EC13C45E6A31D8CE56B0D058EC08A /* Pods-AllenFirstPodLib_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AllenFirstPodLib_Tests-dummy.m"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		7F98FAC3F2A18A7B47C433331E916852 /* Pods-AllenFirstPodLib_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AllenFirstPodLib_Example.modulemap"; sourceTree = "<group>"; };
-		979539C6169CCE48547E59A3989B340C /* Pods-AllenFirstPodLib_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-AllenFirstPodLib_Tests"; path = Pods_AllenFirstPodLib_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		979539C6169CCE48547E59A3989B340C /* Pods_AllenFirstPodLib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AllenFirstPodLib_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A1CF5AFC06862AA1EDAE54D2DEEB5CFA /* AllenFirstPodLib-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AllenFirstPodLib-prefix.pch"; sourceTree = "<group>"; };
 		AC48F280F0EA7908F8C312C4CED4DBD5 /* Pods-AllenFirstPodLib_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AllenFirstPodLib_Tests-umbrella.h"; sourceTree = "<group>"; };
@@ -131,8 +131,8 @@
 			isa = PBXGroup;
 			children = (
 				35370C75B3AA9B191CAE1D940C090A41 /* AllenFirstPodLib.framework */,
-				0A0FB5ECC3EF045C2EBB6A2EC4F247D3 /* Pods-AllenFirstPodLib_Example */,
-				979539C6169CCE48547E59A3989B340C /* Pods-AllenFirstPodLib_Tests */,
+				0A0FB5ECC3EF045C2EBB6A2EC4F247D3 /* Pods_AllenFirstPodLib_Example.framework */,
+				979539C6169CCE48547E59A3989B340C /* Pods_AllenFirstPodLib_Tests.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -291,7 +291,7 @@
 			);
 			name = "Pods-AllenFirstPodLib_Example";
 			productName = Pods_AllenFirstPodLib_Example;
-			productReference = 0A0FB5ECC3EF045C2EBB6A2EC4F247D3 /* Pods-AllenFirstPodLib_Example */;
+			productReference = 0A0FB5ECC3EF045C2EBB6A2EC4F247D3 /* Pods_AllenFirstPodLib_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		4869A7982F332C5CCA483EF25D46C97E /* Pods-AllenFirstPodLib_Tests */ = {
@@ -310,7 +310,7 @@
 			);
 			name = "Pods-AllenFirstPodLib_Tests";
 			productName = Pods_AllenFirstPodLib_Tests;
-			productReference = 979539C6169CCE48547E59A3989B340C /* Pods-AllenFirstPodLib_Tests */;
+			productReference = 979539C6169CCE48547E59A3989B340C /* Pods_AllenFirstPodLib_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		72C58BC9AFCC43F19DEE2E51D668A4B3 /* AllenFirstPodLib */ = {
@@ -340,7 +340,14 @@
 				LastSwiftUpdateCheck = 1240;
 				LastUpgradeCheck = 1240;
 				TargetAttributes = {
+					25154AC50876151D757CA47753F7A71F = {
+						DevelopmentTeam = S8FBP4YLUA;
+					};
+					4869A7982F332C5CCA483EF25D46C97E = {
+						DevelopmentTeam = S8FBP4YLUA;
+					};
 					72C58BC9AFCC43F19DEE2E51D668A4B3 = {
+						DevelopmentTeam = S8FBP4YLUA;
 						LastSwiftMigration = 1310;
 					};
 				};
@@ -506,11 +513,13 @@
 			baseConfigurationReference = 688B44F1012C1C1D955B7BF7334FA935 /* AllenFirstPodLib.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = S8FBP4YLUA;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -538,11 +547,13 @@
 			baseConfigurationReference = 44FC4EFB7820448C6D88FD39C26D4E70 /* Pods-AllenFirstPodLib_Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = S8FBP4YLUA;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -570,11 +581,13 @@
 			baseConfigurationReference = 5DD4FE0591645995038CDF804D073910 /* Pods-AllenFirstPodLib_Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = S8FBP4YLUA;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -603,11 +616,13 @@
 			baseConfigurationReference = E953C097F6C4332867A8E1499A580C51 /* Pods-AllenFirstPodLib_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = S8FBP4YLUA;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -697,11 +712,13 @@
 			baseConfigurationReference = C85880279EBD118B1FAC82C5B9E4F856 /* AllenFirstPodLib.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = S8FBP4YLUA;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -729,11 +746,13 @@
 			baseConfigurationReference = F1F1B6CCA4D416D520018B77D4BDB011 /* Pods-AllenFirstPodLib_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = S8FBP4YLUA;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
